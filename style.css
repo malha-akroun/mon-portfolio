@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quantico';
+    color: #fff;
+    position: relative;
+    overflow-x: hidden; 
+}
+html{
+    scroll-behavior: smooth ;
+    font-family: 'Quantico'
+}
+
+#home_body {
+    background-image: url('images/backround.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+   
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+
+}
+
+.navbar ul li a:hover {
+    color: #ff6347; 
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.content-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.663); 
+    border-radius: 12px;
+    background-image: url(images/);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    ;
+
+}
+h4{
+    text-align: center;
+}
+h5{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: ;
+}
+p{
+    text-align: justify;
+}
+.projet{
+    width: 50%;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 90px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    border-radius: 12px;
+    border: 2px solid #fff;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f6b9ae;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+    text-align: center;
+    
+   
+}
+
+.contact-info a:hover {
+    background-color: #cb8277aa; /* Couleur au survol */
+}
+
+
+@media (min-width: 768px) {
+    .navbar ul {
+        justify-content: flex-end;
+    }
+
+
+
+    .gallery img {
+        max-width: 80px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+}
